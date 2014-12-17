@@ -14,10 +14,10 @@
 (setq show-paren-delay 0)
 
 ; Set code style and indentation
-(setq
-  c-default-style "bsd"
-  c-basic-offset 4
-)
+(setq c-default-style '(
+    (other . "bsd")
+))
+(setq c-basic-offset 4)
 
 ; Disable tab indentation
 (setq-default indent-tabs-mode nil)
