@@ -1,5 +1,5 @@
 ; --------------------------------------
-; Emacs configuration file
+; Emacs configuration file (GNU Emacs)
 ; Edited by Alexander During
 ; --------------------------------------
 
@@ -40,7 +40,7 @@
 (set-language-environment 'german)
 
 ; Save space
-(menu-bar-mode nil)
+(menu-bar-mode 0)
 
 ; Utf-8 encoding
 (prefer-coding-system 'utf-8)
